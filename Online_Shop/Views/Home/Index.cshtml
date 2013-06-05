@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Babelfish42 Online Shop";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+ <h4>Wahlen Sie die Art Ihres Sitzsackes aus:</h4>
+ <table border=1>
+ <colgroup width="200" span="2"></colgroup>
+    <tr>
+        <td>
+            @Html.ActionLink("Person", "Index", "BeanBagPerson") <br />
+            <img src="../../Images/heroAccent.png" alt="Bild ersetzen!" />
+        </td>
+        <td>
+            @Html.ActionLink("Handy", "Index", "BeanBagDevice") <br />
+            <img src="../../Images/heroAccent.png" alt="Bild ersetzen!" />
+        </td>
+    </tr>
+</table>
