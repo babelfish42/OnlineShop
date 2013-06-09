@@ -48,14 +48,14 @@ namespace Online_Shop.Controllers
         {
             var cart = ShoppingCart.GetCart(this.HttpContext);
 
-            string albumName = db.Carts
+            string beanBagName = db.Carts
                 .Single(item => item.RecordId == id).BeanBag.name;
 
             int itemCount = cart.RemoveFromCart(id);
 
             var results = new ShoppingCartRemoveViewModel
             {
-                Message = Server.HtmlEncode(albumName) +
+                Message = Server.HtmlEncode(beanBagName) +
                     " has been removed from your shopping cart.",
                 CartTotal = cart.GetTotal(),
                 CartCount = cart.GetCount(),
