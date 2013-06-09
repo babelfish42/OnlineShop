@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Online_Shop.Models.BeanBagType>
+
+<ul id="categories">
+    @foreach (var beanBagyType in Model)
+    {
+        <li>@Html.ActionLink(beanBagyType.name, 
+                "Browse", "BeanBags",
+                 new { BeanBagType = beanBagyType.name }, null)
+        </li>
+    }
+</ul>

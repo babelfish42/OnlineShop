@@ -9,11 +9,11 @@ namespace Online_Shop.Controllers
 {
     public class HomeController : Controller
     {
-        private BeanBagDBContext db = new BeanBagDBContext();
+        private OnlineShopEntities db = new OnlineShopEntities();
 
         public ActionResult Index()
         {
-            return View(db.BeanBagModels.ToList());
+            return View(db.BeanBagTypes.ToList());
         }
 
         public ActionResult About()

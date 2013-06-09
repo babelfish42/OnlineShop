@@ -1,0 +1,33 @@
+﻿@model Online_Shop.Models.BeanBagType
+@{
+    ViewBag.Title = "Browse";
+}
+
+<h2>Browse @Model.name</h2>
+<table border="1">
+
+    @foreach (var item in Model.BeanBag)
+    {
+        <tr>
+            <td>
+                <img src="@item.picture" />
+            </td>
+            <td>
+                @item.name
+            </td>
+            <td>
+                @item.color<br />
+                @item.measure
+            </td>
+            <td>
+                @item.description
+            </td>
+            <td>
+                @item.price
+            </td>
+            <td class="button">
+                @Html.ActionLink("Add to cart", "AddtoCart", "ShoppingCart", new {id = Model.id},"")
+            </td>
+        </tr>
+    }
+</table>

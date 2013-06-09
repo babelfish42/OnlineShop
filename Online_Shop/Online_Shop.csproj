@@ -162,23 +162,31 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\BeanBagDeviceController.cs" />
-    <Compile Include="Controllers\BeanBagPersonController.cs" />
+    <Compile Include="Controllers\BeanBagsController.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ShoppingCartController.cs" />
+    <Compile Include="Controllers\StoreManagerController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201306022033166_Initial.cs" />
-    <Compile Include="Migrations\201306022033166_Initial.Designer.cs">
-      <DependentUpon>201306022033166_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201306072138017_Initial.cs" />
+    <Compile Include="Migrations\201306072138017_Initial.Designer.cs">
+      <DependentUpon>201306072138017_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\BeanBagDevice.cs" />
-    <Compile Include="Models\BeanBagModel.cs" />
-    <Compile Include="Models\BeanBagPerson.cs" />
+    <Compile Include="Models\BeanBag.cs" />
+    <Compile Include="Models\BeanBagType.cs" />
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\OnlineShopEntities.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\ShoppingCart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ShoppingCartRemoveViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingCartViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -252,7 +260,9 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -299,39 +309,57 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagPerson\Index.cshtml" />
+    <Content Include="Views\BeanBags\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagPerson\Details.cshtml" />
+    <Content Include="Views\BeanBags\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagPerson\Create.cshtml" />
+    <Content Include="Views\BeanBags\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagPerson\Edit.cshtml" />
+    <Content Include="Views\BeanBags\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagPerson\Delete.cshtml" />
+    <Content Include="Views\BeanBags\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagDevice\Index.cshtml" />
+    <Content Include="Views\BeanBags\Browse.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagDevice\Details.cshtml" />
+    <Content Include="Views\ShoppingCart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagDevice\Create.cshtml" />
+    <Content Include="Views\Checkout\AddressAndPayment.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagDevice\Edit.cshtml" />
+    <Content Include="Views\Checkout\Complete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BeanBagDevice\Delete.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201306022033166_Initial.resx">
-      <DependentUpon>201306022033166_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201306072138017_Initial.resx">
+      <DependentUpon>201306072138017_Initial.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ShoppingCart\CartSummary.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StoreManager\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StoreManager\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StoreManager\Create.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StoreManager\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StoreManager\Delete.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\BeanBags\BeanBagTypesMenu.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

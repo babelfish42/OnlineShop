@@ -1,0 +1,64 @@
+﻿@model Online_Shop.Models.BeanBag
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>BeanBag</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.description)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.description)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.price)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.price)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.color)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.color)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.measure)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.measure)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.picture)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.picture)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.BeanBagType.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.BeanBagType.name)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

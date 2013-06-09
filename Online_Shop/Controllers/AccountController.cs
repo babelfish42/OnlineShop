@@ -17,6 +17,14 @@ namespace Online_Shop.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
+        private void MigrateShoppingCart(string UserName)
+        {
+            // Associate shopping cart items with logged-in user
+            var cart = ShoppingCart.GetCart(this.HttpContext);
+
+            cart.MigrateCart(UserName);
+            Session[ShoppingCart.CartSessionKey] = UserName;
+        }
         //
         // GET: /Account/Login
 
@@ -37,6 +45,7 @@ namespace Online_Shop.Controllers
         {
             if (ModelState.IsValid && WebSecurity.Login(model.UserName, model.Password, persistCookie: model.RememberMe))
             {
+                MigrateShoppingCart(model.UserName); //evtl. fehler
                 return RedirectToLocal(returnUrl);
             }
 
@@ -81,6 +90,7 @@ namespace Online_Shop.Controllers
                 {
                     WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
                     WebSecurity.Login(model.UserName, model.Password);
+                    MigrateShoppingCart(model.UserName); //evtl. fehler
                     return RedirectToAction("Index", "Home");
                 }
                 catch (MembershipCreateUserException e)

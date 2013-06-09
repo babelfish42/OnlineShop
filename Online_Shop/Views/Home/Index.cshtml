@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<Online_Shop.Models.BeanBagType>
+@{
     ViewBag.Title = "Babelfish42 Online Shop";
 }
 @section featured {
@@ -10,17 +11,12 @@
         </div>
     </section>
 }
- <h4>Wahlen Sie die Art Ihres Sitzsackes aus:</h4>
- <table border=1>
- <colgroup width="200" span="2"></colgroup>
-    <tr>
-        <td>
-            @Html.ActionLink("Person", "Index", "BeanBagPerson") <br />
-            <img src="../../Images/heroAccent.png" alt="Bild ersetzen!" />
-        </td>
-        <td>
-            @Html.ActionLink("Handy", "Index", "BeanBagDevice") <br />
-            <img src="../../Images/heroAccent.png" alt="Bild ersetzen!" />
-        </td>
-    </tr>
+ <h4>Choose your type of Bean Bags:</h4>
+<table border="1">
+@foreach (var beanBagType in Model) {
+    <td>
+            @Html.ActionLink(beanBagType.name, "Browse", "BeanBags", new { BeanBagType = beanBagType.name }, null)<br />
+            <img src="../../Images/heroAccent.png" alt="Bild ersetzen!" /><br />
+    </td>
+}
 </table>
