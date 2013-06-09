@@ -4,55 +4,18 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Details for @Html.DisplayFor(model => model.name)</h2>
 
 <fieldset>
-    <legend>BeanBag</legend>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.name)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.name)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.description)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.description)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.price)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.price)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.color)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.color)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.measure)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.measure)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.picture)
-    </div>
-    <div class="display-field">
-        
-        <img src="@Html.DisplayFor(model => model.picture)" />
-    </div>
+    <table>
+        <td class="display-field">
+            <img src="@Html.DisplayFor(model => model.picture)" width="200" height="150" />
+        </td>
+        <td>
+            <b>Color:</b> @Html.DisplayFor(model => model.color)<br />
+            <b>Measures:</b> @Html.DisplayFor(model => model.measure)<br />
+            <b>Price:</b> @Html.DisplayFor(model => model.price)<br />
+            <b>Description:</b> @Html.DisplayFor(model => model.description)
+        </td>
+    </table>
 </fieldset>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
