@@ -9,6 +9,7 @@ namespace Online_Shop.Models
     {
         public int id { get; set; }
         public string name {get; set;}
+        public string picture { get; set; }
         public List<BeanBag> BeanBag { get; set; }
     }
 }

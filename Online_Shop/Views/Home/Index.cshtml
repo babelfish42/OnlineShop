@@ -11,12 +11,12 @@
         </div>
     </section>
 }
- <h4>Choose your type of Bean Bags:</h4>
-<table border="1">
+ <h2>Choose your type of Bean Bags:</h2>
+<table>
 @foreach (var beanBagType in Model) {
-    <td>
-            @Html.ActionLink(beanBagType.name, "Browse", "BeanBags", new { BeanBagType = beanBagType.name }, null)<br />
-            <img src="../../Images/heroAccent.png" alt="Bild ersetzen!" /><br />
+    <td align=center>
+            <h2>@Html.ActionLink(beanBagType.name, "Browse", "BeanBags", new { BeanBagType = beanBagType.name }, null)</h2><br />
+            <img src="@beanBagType.picture" width="400" height="300"/><br />          
     </td>
 }
 </table>

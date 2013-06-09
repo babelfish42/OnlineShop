@@ -3,27 +3,32 @@
     ViewBag.Title = "Browse";
 }
 
-<h2>Browse @Model.name</h2>
-<table border="1">
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h2>Browse Bean Bags for  @Model.name</h2>
+            </hgroup>
+        </div>
+    </section>
+}
+
+<table>
 
     @foreach (var item in Model.BeanBag)
     {
         <tr>
             <td>
-                <img src="@item.picture" />
+                <img src="@item.picture" width="200" height="150" />
             </td>
             <td>
-                @item.name
+                <b>Name:</b> @item.name<br />
+                <b>Color:</b> @item.color<br />
+                <b>Measures:</b> @item.measure
             </td>
             <td>
-                @item.color<br />
-                @item.measure
-            </td>
-            <td>
-                @item.description
-            </td>
-            <td>
-                @item.price
+                <b>Price:</b> @item.price<br />
+                <b>Description:</b> @item.description
             </td>
             <td class="button">
                 @Html.ActionLink("Add to cart", "AddtoCart", "ShoppingCart", new {id = item.id},"")

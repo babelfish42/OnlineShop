@@ -11,7 +11,6 @@ namespace Online_Shop.Controllers
     public class CheckoutController : Controller
     {
         OnlineShopEntities db = new OnlineShopEntities();
-        //const string PromoCode = "FREE";
 
         //
         // GET: /Checkout/AddressAndPayment
@@ -32,13 +31,6 @@ namespace Online_Shop.Controllers
 
             try
             {
-                /*if (string.Equals(values["PromoCode"], PromoCode,
-                    StringComparison.OrdinalIgnoreCase) == false)
-                {
-                    return View(order);
-                }
-                else
-                {*/
                     order.Username = User.Identity.Name;
                     order.OrderDate = DateTime.Now;
 
@@ -52,7 +44,6 @@ namespace Online_Shop.Controllers
 
                     return RedirectToAction("Complete",
                         new { id = order.OrderId });
-                //}
 
             }
             catch

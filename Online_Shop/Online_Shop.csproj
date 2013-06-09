@@ -171,9 +171,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201306072138017_Initial.cs" />
-    <Compile Include="Migrations\201306072138017_Initial.Designer.cs">
-      <DependentUpon>201306072138017_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201306091500330_Initial.cs" />
+    <Compile Include="Migrations\201306091500330_Initial.Designer.cs">
+      <DependentUpon>201306091500330_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -245,6 +245,17 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\BeanBagDeviceAll_Back.JPG" />
+    <Content Include="Images\BeanBagDeviceAll_Front.JPG" />
+    <Content Include="Images\BeanBagDevice_Blue.JPG" />
+    <Content Include="Images\BeanBagDevice_Cheeta.JPG" />
+    <Content Include="Images\BeanBagDevice_Cow.JPG" />
+    <Content Include="Images\BeanBagDevice_Devil.JPG" />
+    <Content Include="Images\BeanBagDevice_Red.JPG" />
+    <Content Include="Images\BeanBagDevice_Yellow.JPG" />
+    <Content Include="Images\BeanBagPersonAll_Front.jpg" />
+    <Content Include="Images\BeanBagPerson_Black.JPG" />
+    <Content Include="Images\BeanBagPerson_Brown.JPG" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -336,11 +347,6 @@
     <Content Include="Views\Checkout\Complete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201306072138017_Initial.resx">
-      <DependentUpon>201306072138017_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\ShoppingCart\CartSummary.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -360,6 +366,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\BeanBags\BeanBagTypesMenu.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201306091500330_Initial.resx">
+      <DependentUpon>201306091500330_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
