@@ -20,10 +20,5 @@ namespace Online_Shop.Controllers
         {
             return View();
         }
-
-        public ActionResult Contact()
-        {
-           return View();
-        }
     }
 }

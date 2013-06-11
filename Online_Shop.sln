@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online_Shop", "Online_Shop\Online_Shop.csproj", "{A720B7D2-38B9-4370-BCD1-930364978A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsOnlineShop", "UnitTestsOnlineShop\UnitTestsOnlineShop.csproj", "{8213D6EC-DC58-4B8C-8406-C1A79784C4CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99BD9573-6478-497B-8EF0-980C90BA18B6}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Online_Shop.vsmdi = Online_Shop.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Online_Shop.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +25,10 @@ Global
 		{A720B7D2-38B9-4370-BCD1-930364978A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A720B7D2-38B9-4370-BCD1-930364978A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A720B7D2-38B9-4370-BCD1-930364978A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8213D6EC-DC58-4B8C-8406-C1A79784C4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8213D6EC-DC58-4B8C-8406-C1A79784C4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8213D6EC-DC58-4B8C-8406-C1A79784C4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8213D6EC-DC58-4B8C-8406-C1A79784C4CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

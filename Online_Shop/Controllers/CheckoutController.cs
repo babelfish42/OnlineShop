@@ -24,7 +24,7 @@ namespace Online_Shop.Controllers
         // POST: /Checkout/AddressAndPayment
 
         [HttpPost]
-        public ActionResult AddressAndPayment(FormCollection values)
+        public ActionResult AddressAndPayment(FormCollection values, string Subject, string Body)
         {
             var order = new Order();
             TryUpdateModel(order);
@@ -42,8 +42,10 @@ namespace Online_Shop.Controllers
                     var cart = ShoppingCart.GetCart(this.HttpContext);
                     cart.CreateOrder(order);
 
-                    return RedirectToAction("Complete",
-                        new { id = order.OrderId });
+                    Subject = "Order from user"+order.Username;
+                    Body = order.LastName;
+
+                    return RedirectToAction("Complete",new { id = order.OrderId });
 
             }
             catch
@@ -62,9 +64,18 @@ namespace Online_Shop.Controllers
             bool isValid = db.Orders.Any(
                 o => o.OrderId == id &&
                 o.Username == User.Identity.Name);
+            
 
             if (isValid)
             {
+                IQueryable<string> queryMailAddress = (from Order in db.Orders where (Order.OrderId == id) select Order.Email);
+
+                IQueryable<string> queryBeanBagName = (from BeanBag b in db.BeanBags join OrderDetail o in db.OrderDetails on b.id equals o.BeanBagId where (o.OrderId == id) select b.name);
+
+                string beanBagName = queryBeanBagName.First();
+                string eMailAdress = queryMailAddress.First();
+                
+                SendMail("Your Order from babelfish42 Online Store", beanBagName, eMailAdress);
                 return View(id);
             }
             else
@@ -73,6 +84,13 @@ namespace Online_Shop.Controllers
             }
         }
 
+        public void SendMail(string Subject, string Body, string eMailAddress)
+        {
+            EMail oMail = new EMail();
+            oMail.SendMail("Email", eMailAddress, new String[] { Subject, Body });
 
+        }
+
+        
     }
 }

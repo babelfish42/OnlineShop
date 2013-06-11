@@ -180,6 +180,7 @@
     <Compile Include="Models\BeanBag.cs" />
     <Compile Include="Models\BeanBagType.cs" />
     <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\EMail.cs" />
     <Compile Include="Models\OnlineShopEntities.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetail.cs" />
@@ -256,6 +257,7 @@
     <Content Include="Images\BeanBagPersonAll_Front.jpg" />
     <Content Include="Images\BeanBagPerson_Black.JPG" />
     <Content Include="Images\BeanBagPerson_Brown.JPG" />
+    <Content Include="MailFormat.xml" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
