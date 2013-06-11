@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a22e15d-f368-4f2c-81bf-8c4dbd2153a3" name="s.roth@DEV4167 2013-06-11 15:45:15" runUser="EXT\s.roth" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Lokal" id="b2d2d2c3-79e7-47e7-bc47-7ecb5392ced3">
+    <Description>Dies sind die standardmäßigen Testeinstellungen für einen lokalen Testlauf.</Description>
+    <Deployment enabled="false" runDeploymentRoot="s.roth_DEV4167 2013-06-11 15_45_15">
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.Data.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.WebPages.OAuth.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\WebGrease.1.1.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\bin\Online_Shop.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.WebData.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-11T15:45:15.1612896+02:00" queuing="2013-06-11T15:45:16.2072896+02:00" start="2013-06-11T15:45:16.3802896+02:00" finish="2013-06-11T15:45:26.8922896+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="10" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Delete" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="832671e2-8aee-f00d-0943-e82b6075dc78">
+      <Execution id="f449d536-e09a-47c6-8064-9c2dd1168346" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_BeanBagsControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Delete" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="2a523fb3-a747-ed3d-8e51-4c8d3535c7f7">
+      <Execution id="7186049f-c7e1-4398-a6b5-74806570f238" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_BeanBagsControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="Edit" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="284a05af-f681-25b5-266f-37b67e338827">
+      <Execution id="bea3d7d9-e435-4314-96de-edda375ff9c5" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_BeanBagsControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Edit" />
+    </UnitTest>
+    <UnitTest name="AddressAndPayment" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="2c7594c9-0764-e0a3-a1f5-393a267b6019">
+      <Execution id="46d8b597-4cc2-4dac-ac1f-d0387f5d10ff" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_CheckoutControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddressAndPayment" />
+    </UnitTest>
+    <UnitTest name="Browse" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="c0c70734-0bee-3c61-00c2-95b07e3d5c71">
+      <Execution id="4e4dc26c-50ba-48d2-9e1b-9bf95275988f" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_BeanBagsControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Browse" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="52ae6ad8-97b7-3ebe-bd61-025075281116">
+      <Execution id="c11cc0fa-dd9d-4cc8-8c39-a1ac201ce1b7" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_StoreManagerControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="Details" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="f44dfcd5-b1cf-5ab5-6115-3f75904ec3a9">
+      <Execution id="e4919384-3ad0-4de0-ac9e-f469f16bfc0a" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_StoreManagerControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Details" />
+    </UnitTest>
+    <UnitTest name="Create" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="e5247cdd-8427-86d8-6f78-4b9b230b3665">
+      <Execution id="02b78bde-457f-4b51-984b-41a3014700e0" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_StoreManagerControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create" />
+    </UnitTest>
+    <UnitTest name="BeanBagTypesMenu" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="a1966128-8aae-ab92-f001-1746831aec0f">
+      <Execution id="349fb11c-92c9-464d-b87b-4699d7faee9c" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_BeanBagsControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BeanBagTypesMenu" />
+    </UnitTest>
+    <UnitTest name="Create" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="c7c823c8-8f7f-2030-4566-6b1fb95809a2">
+      <Execution id="e3499992-68bb-4c0f-a09b-4d87caa2dfff" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_BeanBagsControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create" />
+    </UnitTest>
+    <UnitTest name="Details" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="ae50a400-3cf2-d59a-b1dd-878135e94f25">
+      <Execution id="b8d5d2dc-ed7b-49ed-a2f4-e1e59f2e74e5" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_BeanBagsControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Details" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="c249f410-03fb-f616-af49-db36ff6b9b96">
+      <Execution id="1a0e16b5-be31-48b7-b42b-71c83291d9b8" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_HomeControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\s.roth\documents\visual studio 2010\projects\onlineshop\unittestsonlineshop\bin\debug\unittestsonlineshop.dll" id="e104f986-e0ea-13e1-dd62-9755735d8e13">
+      <Execution id="231b6059-8195-46db-9d92-15be8c1a6340" />
+      <TestMethod codeBase="C:/Users/s.roth/Documents/Visual Studio 2010/Projects/OnlineShop/UnitTestsOnlineShop/bin/Debug/UnitTestsOnlineShop.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestsOnlineShop.Pos_HomeControllerTest, UnitTestsOnlineShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Nicht in einer Liste enthaltene Ergebnisse" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="284a05af-f681-25b5-266f-37b67e338827" executionId="bea3d7d9-e435-4314-96de-edda375ff9c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a523fb3-a747-ed3d-8e51-4c8d3535c7f7" executionId="7186049f-c7e1-4398-a6b5-74806570f238" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c7594c9-0764-e0a3-a1f5-393a267b6019" executionId="46d8b597-4cc2-4dac-ac1f-d0387f5d10ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52ae6ad8-97b7-3ebe-bd61-025075281116" executionId="c11cc0fa-dd9d-4cc8-8c39-a1ac201ce1b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="832671e2-8aee-f00d-0943-e82b6075dc78" executionId="f449d536-e09a-47c6-8064-9c2dd1168346" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1966128-8aae-ab92-f001-1746831aec0f" executionId="349fb11c-92c9-464d-b87b-4699d7faee9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae50a400-3cf2-d59a-b1dd-878135e94f25" executionId="b8d5d2dc-ed7b-49ed-a2f4-e1e59f2e74e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0c70734-0bee-3c61-00c2-95b07e3d5c71" executionId="4e4dc26c-50ba-48d2-9e1b-9bf95275988f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c249f410-03fb-f616-af49-db36ff6b9b96" executionId="1a0e16b5-be31-48b7-b42b-71c83291d9b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7c823c8-8f7f-2030-4566-6b1fb95809a2" executionId="e3499992-68bb-4c0f-a09b-4d87caa2dfff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e104f986-e0ea-13e1-dd62-9755735d8e13" executionId="231b6059-8195-46db-9d92-15be8c1a6340" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5247cdd-8427-86d8-6f78-4b9b230b3665" executionId="02b78bde-457f-4b51-984b-41a3014700e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f44dfcd5-b1cf-5ab5-6115-3f75904ec3a9" executionId="e4919384-3ad0-4de0-ac9e-f469f16bfc0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bea3d7d9-e435-4314-96de-edda375ff9c5" testId="284a05af-f681-25b5-266f-37b67e338827" testName="Edit" computerName="DEV4167" duration="00:00:05.1166231" startTime="2013-06-11T15:45:16.5562896+02:00" endTime="2013-06-11T15:45:22.0902896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bea3d7d9-e435-4314-96de-edda375ff9c5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at UnitTestsOnlineShop.Pos_BeanBagsControllerTest.Edit() in C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\Controller Tests Positive\Pos_BeanBagsControllerTest.cs:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7186049f-c7e1-4398-a6b5-74806570f238" testId="2a523fb3-a747-ed3d-8e51-4c8d3535c7f7" testName="Index" computerName="DEV4167" duration="00:00:00.3703124" startTime="2013-06-11T15:45:22.2402896+02:00" endTime="2013-06-11T15:45:22.6182896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7186049f-c7e1-4398-a6b5-74806570f238">
+    </UnitTestResult>
+    <UnitTestResult executionId="46d8b597-4cc2-4dac-ac1f-d0387f5d10ff" testId="2c7594c9-0764-e0a3-a1f5-393a267b6019" testName="AddressAndPayment" computerName="DEV4167" duration="00:00:00.0016466" startTime="2013-06-11T15:45:22.6382896+02:00" endTime="2013-06-11T15:45:22.6502896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46d8b597-4cc2-4dac-ac1f-d0387f5d10ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="c11cc0fa-dd9d-4cc8-8c39-a1ac201ce1b7" testId="52ae6ad8-97b7-3ebe-bd61-025075281116" testName="Index" computerName="DEV4167" duration="00:00:01.8421708" startTime="2013-06-11T15:45:22.6602896+02:00" endTime="2013-06-11T15:45:24.5162896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c11cc0fa-dd9d-4cc8-8c39-a1ac201ce1b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="f449d536-e09a-47c6-8064-9c2dd1168346" testId="832671e2-8aee-f00d-0943-e82b6075dc78" testName="Delete" computerName="DEV4167" duration="00:00:00.0163388" startTime="2013-06-11T15:45:24.5332896+02:00" endTime="2013-06-11T15:45:24.5612896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f449d536-e09a-47c6-8064-9c2dd1168346">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at UnitTestsOnlineShop.Pos_BeanBagsControllerTest.Delete() in C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\Controller Tests Positive\Pos_BeanBagsControllerTest.cs:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="349fb11c-92c9-464d-b87b-4699d7faee9c" testId="a1966128-8aae-ab92-f001-1746831aec0f" testName="BeanBagTypesMenu" computerName="DEV4167" duration="00:00:00.0467986" startTime="2013-06-11T15:45:24.5702896+02:00" endTime="2013-06-11T15:45:24.6262896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="349fb11c-92c9-464d-b87b-4699d7faee9c">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8d5d2dc-ed7b-49ed-a2f4-e1e59f2e74e5" testId="ae50a400-3cf2-d59a-b1dd-878135e94f25" testName="Details" computerName="DEV4167" duration="00:00:00.0153178" startTime="2013-06-11T15:45:24.6362896+02:00" endTime="2013-06-11T15:45:24.6602896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8d5d2dc-ed7b-49ed-a2f4-e1e59f2e74e5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at UnitTestsOnlineShop.Pos_BeanBagsControllerTest.Details() in C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\Controller Tests Positive\Pos_BeanBagsControllerTest.cs:line 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4e4dc26c-50ba-48d2-9e1b-9bf95275988f" testId="c0c70734-0bee-3c61-00c2-95b07e3d5c71" testName="Browse" computerName="DEV4167" duration="00:00:00.4318614" startTime="2013-06-11T15:45:24.6692896+02:00" endTime="2013-06-11T15:45:25.1092896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e4dc26c-50ba-48d2-9e1b-9bf95275988f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a0e16b5-be31-48b7-b42b-71c83291d9b8" testId="c249f410-03fb-f616-af49-db36ff6b9b96" testName="About" computerName="DEV4167" duration="00:00:00.0010171" startTime="2013-06-11T15:45:25.1162896+02:00" endTime="2013-06-11T15:45:25.1252896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a0e16b5-be31-48b7-b42b-71c83291d9b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3499992-68bb-4c0f-a09b-4d87caa2dfff" testId="c7c823c8-8f7f-2030-4566-6b1fb95809a2" testName="Create" computerName="DEV4167" duration="00:00:00.0006507" startTime="2013-06-11T15:45:25.1322896+02:00" endTime="2013-06-11T15:45:25.1382896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3499992-68bb-4c0f-a09b-4d87caa2dfff">
+    </UnitTestResult>
+    <UnitTestResult executionId="231b6059-8195-46db-9d92-15be8c1a6340" testId="e104f986-e0ea-13e1-dd62-9755735d8e13" testName="Index" computerName="DEV4167" duration="00:00:00.0069207" startTime="2013-06-11T15:45:25.1462896+02:00" endTime="2013-06-11T15:45:25.1592896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="231b6059-8195-46db-9d92-15be8c1a6340">
+    </UnitTestResult>
+    <UnitTestResult executionId="02b78bde-457f-4b51-984b-41a3014700e0" testId="e5247cdd-8427-86d8-6f78-4b9b230b3665" testName="Create" computerName="DEV4167" duration="00:00:00.0436186" startTime="2013-06-11T15:45:25.1672896+02:00" endTime="2013-06-11T15:45:25.2172896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02b78bde-457f-4b51-984b-41a3014700e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4919384-3ad0-4de0-ac9e-f469f16bfc0a" testId="f44dfcd5-b1cf-5ab5-6115-3f75904ec3a9" testName="Details" computerName="DEV4167" duration="00:00:00.0206847" startTime="2013-06-11T15:45:25.2242896+02:00" endTime="2013-06-11T15:45:25.2542896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4919384-3ad0-4de0-ac9e-f469f16bfc0a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

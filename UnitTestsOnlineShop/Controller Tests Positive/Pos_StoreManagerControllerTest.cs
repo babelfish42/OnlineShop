@@ -4,20 +4,31 @@ using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting.Web;
 using System.Web.Mvc;
 using Online_Shop.Models;
+using System.Collections.Generic;
 
 namespace UnitTestsOnlineShop
 {
     [TestClass()]
-    public class Pos_StoreManagerControllerTest
+    public class Pos_StoreManagerControllerTest 
     {
-        BeanBag beanBagTest = new BeanBag();
+        private OnlineShopEntities db = new OnlineShopEntities();
 
-        public int createTestData()
+        BeanBag beanBag = null;
+
+        public int createTestObject()
         {
-            beanBagTest.name = "TestObject";
-            beanBagTest.description = "";
-            beanBagTest.price = 99;
-            return beanBagTest.id;
+            beanBag = new BeanBag { name = "testObject", beanBagTypeID = 1 };
+            db.BeanBags.Add(beanBag);
+            db.SaveChanges();
+
+            return beanBag.id;
+        }
+
+        public void deleteTestObject(int id)
+        {
+            BeanBag beanbag = db.BeanBags.Find(id);
+            db.BeanBags.Remove(beanbag);
+            db.SaveChanges();
         }
 
         [TestMethod]
@@ -33,22 +44,23 @@ namespace UnitTestsOnlineShop
             Assert.IsNotNull(result);
         }
 
-        /*
         [TestMethod]
         public void Details()
         {
-            int id = createTestData();
-            
+            createTestObject();
+
             // Arrange
             StoreManagerController controller = new StoreManagerController();
 
             // Act
-            ViewResult result = controller.Details(id) as ViewResult;
-
+            ViewResult result = controller.Details(beanBag.id) as ViewResult;
+            
             // Assert
             Assert.IsNotNull(result);
+
+            deleteTestObject(beanBag.id);
         }
-         */
+         
 
         [TestMethod]
         public void Create()
@@ -63,51 +75,60 @@ namespace UnitTestsOnlineShop
             Assert.IsNotNull(result);
         }
 
-        /* Zuerst dummy objekt erzeugen und dessen id nehmen!
+       
         [TestMethod]
         public void Edit()
         {
-            int id = 15;
+            createTestObject();
+
             // Arrange
             StoreManagerController controller = new StoreManagerController();
 
             // Act
-            ViewResult result = controller.Edit(id) as ViewResult;
+            ViewResult result = controller.Edit(beanBag.id) as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
-        }
-        *
 
-        /* Zuerst dummy objekt erzeugen und dessen id nehmen!
+            deleteTestObject(beanBag.id);
+        }
+        
+
+        
         [TestMethod]
         public void Delete()
         {
-            int id = 16;
+            createTestObject();
+
             // Arrange
             StoreManagerController controller = new StoreManagerController();
 
             // Act
-            ViewResult result = controller.Delete(id) as ViewResult;
+            ViewResult result = controller.Delete(beanBag.id) as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
+
+            deleteTestObject(beanBag.id);
         }
-         */
+         
 
         /*
         [TestMethod]
         public void DeleteConfirmed()
         {
-            int id = 15;
+            createTestObject();
+
             // Arrange
             StoreManagerController controller = new StoreManagerController();
 
             // Act
-            ViewResult result = controller.DeleteConfirmed(id) as ViewResult;
+            ViewResult result = controller.DeleteConfirmed(beanBag.id) as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
+
+            deleteTestObject(beanBag.id);
         }
          */
     }
