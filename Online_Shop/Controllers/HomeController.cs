@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Online_Shop.Models;
+using Online_Shop.Resources;
 
 namespace Online_Shop.Controllers
 {
@@ -22,5 +23,7 @@ namespace Online_Shop.Controllers
         {
             return View();
         }
+
+
     }
 }

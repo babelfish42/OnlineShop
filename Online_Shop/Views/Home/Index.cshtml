@@ -1,6 +1,9 @@
-﻿@model IEnumerable<Online_Shop.Models.BeanBagType>
+﻿@using Online_Shop.Resources
+@using MvcGlobalisationSupport
+@model IEnumerable<Online_Shop.Models.BeanBagType>
 @{
-    ViewBag.Title = "Babelfish42 Online Shop";
+    ViewBag.Title = Global.Home;
+    ViewBag.Message = Global.ChooseBeanBagType;
 }
 @section featured {
     <section class="featured">
@@ -11,8 +14,11 @@
         </div>
     </section>
 }
- <h2>Choose your type of Bean Bags:</h2>
+
+<h2>@ViewBag.Message</h2>
+
 <table>
+
 @foreach (var beanBagType in Model) {
     <td align=center>
             <h2>@Html.ActionLink(beanBagType.name, "Browse", "BeanBags", new { BeanBagType = beanBagType.name }, null)</h2><br />

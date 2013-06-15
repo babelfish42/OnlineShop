@@ -1,18 +1,24 @@
-﻿@{
-    ViewBag.Title = "About";
+﻿@using Online_Shop.Resources
+@{
+    ViewBag.Title = Global.About;
+    ViewBag.Message = Global.ContactInformation;
+    ViewBag.Name = Global.ContactInformationName;
+    ViewBag.Street = Global.ContactInformationStreet;
+    ViewBag.City = Global.ContactInformationCity;
+    ViewBag.Email = Global.ContactInformationEmail;
+    
 }
 
 <hgroup class="title">
     <h1>@ViewBag.Title</h1>
-    <h2>@ViewBag.Message</h2>
 </hgroup>
 
 <article>
     <p>
-    <h4>Contact Information</h4>
-        Roth IT Solutions<br />
-        Ringwiesenstrasse 4<br />
-        8600 Dübendorf<br />
-        rothITsolutions@gmail.com
+    <h4>@ViewBag.Message</h4>
+        @ViewBag.Name<br />
+        @ViewBag.Street<br />
+        @ViewBag.City <br />
+        @ViewBag.Email
     </p>
 </article>

@@ -1,13 +1,19 @@
-﻿@model int
+﻿@using Online_Shop.Resources
+@using MvcGlobalisationSupport
+@model int
 
 @{
-    ViewBag.Title = "Checkout Complete";
+    ViewBag.Title = Global.CheckoutComplete;
+    ViewBag.Name = Global.CheckoutCompleteTitle;
+    ViewBag.Message = Global.CheckoutCompleteMessage;
+    ViewBag.Message2 = Global.CheckoutCompleteContinueShopping;
+    
 }
 
-<h2>Checkout Complete</h2>
+<h2>@ViewBag.Name</h2>
 
-<p>Thanks for your order! Your order number is: @Model</p>
+<p>@ViewBag.Message @Model</p>
 
-<p>How about shopping for some bean bags in our 
+<p>@ViewBag.Message2 
     @Html.ActionLink("Home", "Index", "Home")
 </p>

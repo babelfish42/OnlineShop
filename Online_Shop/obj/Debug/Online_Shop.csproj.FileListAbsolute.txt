@@ -165,3 +165,13 @@ C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.Migrations.Initial.resources
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\GenerateResource.read.1.tlog
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.Resources.Global.resources
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.Resources.Global.de.resources
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\bin\de\Online_Shop.resources.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\de\Online_Shop.resources.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\bin\fr\Online_Shop.resources.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\bin\it\Online_Shop.resources.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.Resources.Global.fr.resources
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.Resources.Global.it.resources
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\fr\Online_Shop.resources.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\it\Online_Shop.resources.dll

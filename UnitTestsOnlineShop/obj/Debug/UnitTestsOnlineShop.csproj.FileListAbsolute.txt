@@ -56,3 +56,6 @@ C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnline
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\obj\Debug\UnitTestsOnlineShop.pdb
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\bin\Debug\Online_Shop_Accessor.dll
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\bin\Debug\Online_Shop_Accessor.pdb
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\bin\Debug\de\Online_Shop.resources.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\bin\Debug\fr\Online_Shop.resources.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\UnitTestsOnlineShop\bin\Debug\it\Online_Shop.resources.dll
