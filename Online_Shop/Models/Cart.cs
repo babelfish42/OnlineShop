@@ -12,7 +12,6 @@ namespace Online_Shop.Models
         public int RecordId { get; set; }
         public int BeanBagId { get; set; }
         public string CartId { get; set; }
-        //public int BeanBagTypeId { get; set; }
         public int Count { get; set; }
         public System.DateTime DateCreated { get; set; }
         public virtual BeanBag BeanBag { get; set; }

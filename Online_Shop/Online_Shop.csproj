@@ -370,14 +370,14 @@
     <Content Include="Views\BeanBags\BeanBagTypesMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
-    <None Include="ClassDiagram3.cd" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\201306151335517_Initial.resx">
       <DependentUpon>201306151335517_Initial.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagramViewModels.cd" />
+    <None Include="ClassDiagramModels.cd" />
+    <None Include="ClassDiagramControllers.cd" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

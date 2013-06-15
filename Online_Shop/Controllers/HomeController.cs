@@ -17,7 +17,7 @@ namespace Online_Shop.Controllers
             return View(db.BeanBagTypes.ToList());
         }
 
-        //returnd vire from Viewws/Home/About.cshtml
+        //returnd vire from Views/Home/About.cshtml
         public ActionResult About()
         {
             return View();
