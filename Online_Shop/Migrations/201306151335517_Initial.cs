@@ -7,12 +7,10 @@ namespace Online_Shop.Migrations
     {
         public override void Up()
         {
-            AddColumn("dbo.BeanBagTypes", "picture", c => c.String());
         }
         
         public override void Down()
         {
-            DropColumn("dbo.BeanBagTypes", "picture");
         }
     }
 }

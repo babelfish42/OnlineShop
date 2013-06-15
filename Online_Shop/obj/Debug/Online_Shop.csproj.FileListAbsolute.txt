@@ -160,8 +160,8 @@ C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\bin
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\bin\DotNetOpenAuth.OpenId.xml
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.dll
+C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.pdb
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.Migrations.Initial.resources
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\GenerateResource.read.1.tlog
 C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\GenerateResource.write.1.tlog
-C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.dll
-C:\Users\s.roth\Documents\Visual Studio 2010\Projects\OnlineShop\Online_Shop\obj\Debug\Online_Shop.pdb

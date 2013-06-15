@@ -19,33 +19,49 @@ namespace Online_Shop.Models
 
         [Required(ErrorMessage = "First Name is required")]
         [DisplayName("First Name")]
-        [StringLength(160)]
+        [RegularExpression(@"[A-Za-z]",
+        ErrorMessage = "First Name is is not valid.")]
+        [StringLength(40)]
         public string FirstName { get; set; }
 
         [Required(ErrorMessage = "Last Name is required")]
         [DisplayName("Last Name")]
-        [StringLength(160)]
+        [RegularExpression(@"[A-Za-z]",
+        ErrorMessage = "Last Name is is not valid.")]
+        [StringLength(40)]
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "Street is required")]
+        [DisplayName("Street")]
+        [RegularExpression(@"[A-Za-z]",
+        ErrorMessage = "Street is is not valid.")]
         [StringLength(70)]
         public string street { get; set; }
 
         [Required(ErrorMessage = "Hno is required")]
-        [StringLength(10)]
+        [DisplayName("Hno")]
+        [RegularExpression(@"[A-Za-z]",
+        ErrorMessage = "Hno is is not valid.")]
+        [StringLength(5)]
         public string hno { get; set; }
 
         [Required(ErrorMessage = "Zip Code is required")]
         [DisplayName("Zip Code")]
+        [RegularExpression(@"[0-9]",
+        ErrorMessage = "Hno is is not valid.")]
         [StringLength(4)]
         public string Zip { get; set; }
 
         [Required(ErrorMessage = "City is required")]
+        [DisplayName("City")]
+        [RegularExpression(@"[A-Za-z]",
+        ErrorMessage = "City is is not valid.")]
         [StringLength(40)]
         public string City { get; set; }
 
         [Required(ErrorMessage = "Phone is required")]
-        [StringLength(24)]
+        [DisplayName("Phone (e.g. +41 123 45 67")]
+        [StringLength(12)]
         public string Phone { get; set; }
 
         [Required(ErrorMessage = "Email Address is required")]

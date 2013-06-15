@@ -171,9 +171,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201306091500330_Initial.cs" />
-    <Compile Include="Migrations\201306091500330_Initial.Designer.cs">
-      <DependentUpon>201306091500330_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201306151335517_Initial.cs" />
+    <Compile Include="Migrations\201306151335517_Initial.Designer.cs">
+      <DependentUpon>201306151335517_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -370,8 +370,13 @@
     <Content Include="Views\BeanBags\BeanBagTypesMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201306091500330_Initial.resx">
-      <DependentUpon>201306091500330_Initial.cs</DependentUpon>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201306151335517_Initial.resx">
+      <DependentUpon>201306151335517_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
