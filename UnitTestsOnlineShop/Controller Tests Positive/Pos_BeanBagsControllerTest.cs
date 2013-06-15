@@ -110,18 +110,8 @@ namespace UnitTestsOnlineShop
         /*
         [TestMethod]
         public void DeleteConfirmed()
-        {
-            createTestObject();
-            deleteTestObject(beanBag.id);
-            // Arrange
-            BeanBagsController controller = new BeanBagsController();
-
-            // Act
-            ViewResult result = controller.DeleteConfirmed(beanBag.id) as ViewResult;
-
-            // Assert
-            Assert.IsNull(result);
-            
+        {...}
+        => automatically tested within Delete() function            
         }*/
          
 

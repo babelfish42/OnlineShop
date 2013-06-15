@@ -28,7 +28,7 @@ namespace Online_Shop.Models
         }
 
         public void AddToCart(BeanBag beanBag)
-        {//mit neuen Usern funktionierts, aber wenn ich als user dann nochmals shoppen will ist der alte shopping cart noch vorhanden!
+        {
             var cartItem = db.Carts.SingleOrDefault(c => c.CartId == ShoppingCartId && c.BeanBagId == beanBag.id);
 
             if (cartItem == null)

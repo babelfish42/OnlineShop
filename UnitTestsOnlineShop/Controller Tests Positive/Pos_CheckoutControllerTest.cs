@@ -54,24 +54,12 @@ namespace UnitTestsOnlineShop
             Assert.IsNotNull(result);
         }
 
-        
+
         /*
         [TestMethod]
         public void Complete()
-        {
-            createTestObject();
-
-            // Arrange
-            CheckoutController controller = new CheckoutController();
-
-            // Act
-            ViewResult result = controller.Complete(beanBag.id) as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
-
-            deleteTestObject(beanBag.id);
-        }
+        {...}
+        =>  => automatically tested within AddressAndPayment() function     
          */
     }
 }

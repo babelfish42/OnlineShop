@@ -6,11 +6,13 @@ using System.Web.Mvc;
 using Online_Shop.Models;
 using Online_Shop.ViewModels;
 
+
 namespace Online_Shop.Controllers
 {
     public class ShoppingCartController : Controller
     {
         OnlineShopEntities db = new OnlineShopEntities();
+
         //
         // GET: /ShoppingCart/
 
