@@ -15,12 +15,10 @@ Project description
 This project was created in context of a seminararbeit. 
 It contains a prototype for an online webshop to sell bean bags.
 -------------------------------------------------------------------------------
-Dependencies:
-
-
--------------------------------------------------------------------------------
-Documentation
-
+Requirements:
+Windows 7
+Browser (Internet Explorer, Mozilla Firefox, Chrome)
+Run script OnlineShopEntities.sql to create values
 -------------------------------------------------------------------------------
 Installation instructions
 
